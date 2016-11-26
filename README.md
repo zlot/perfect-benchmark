@@ -14,7 +14,6 @@ The only Node.js benchmarking library you'll need.
 The usage of perfect-benchmark is super simple. An example can be seen below:
 
 ```javascript
-
 const benchmark = require("perfect-benchmark");
 
 benchmark(callback => {
@@ -33,7 +32,6 @@ If you want to specify a callback to be called after the benchmark has completed
 The following example demonstrates these two features.
 
 ```javascript
-
 const benchmark = require("perfect-benchmark");
 
 benchmark(callback => {
