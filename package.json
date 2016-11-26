@@ -1,0 +1,25 @@
+{
+  "name": "perfect-benchmark",
+  "version": "1.0.0",
+  "description": "The only Node.js benchmarking library you'll need",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awstuff/perfect-benchmark.git"
+  },
+  "keywords": [
+    "Node.js",
+    "benchmark",
+    "benchmarking",
+    "performance"
+  ],
+  "author": "Adrian Wirth <adrian.wirth@yahoo.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awstuff/perfect-benchmark/issues"
+  },
+  "homepage": "https://github.com/awstuff/perfect-benchmark#readme"
+}
