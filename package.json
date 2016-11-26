@@ -1,6 +1,6 @@
 {
   "name": "perfect-benchmark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The only Node.js benchmarking library you'll need",
   "main": "index.js",
   "scripts": {
