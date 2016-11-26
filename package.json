@@ -1,11 +1,8 @@
 {
   "name": "perfect-benchmark",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The only Node.js benchmarking library you'll need",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/awstuff/perfect-benchmark.git"
@@ -21,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/awstuff/perfect-benchmark/issues"
   },
-  "homepage": "https://github.com/awstuff/perfect-benchmark#readme"
+  "homepage": "https://github.com/awstuff/perfect-benchmark#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "colors": "^1.1.2"
+  }
 }
