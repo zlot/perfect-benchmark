@@ -74,7 +74,7 @@ let prettifyTimes = times => {
 };
 
 
-let outputResultsInAPrettyWay = (label, averageTime, executionTimes) => {
+let outputResultsInAPrettyWay = (label = 'untitled', averageTime, executionTimes) => {
 	console.log("Exectuted " + label.bold + " " + executionTimes.length + " times.");
 	console.log("Average duration: " + prettifyTime(averageTime).bold);
 	console.log(("Individual durations: " + prettifyTimes(executionTimes)).grey);
